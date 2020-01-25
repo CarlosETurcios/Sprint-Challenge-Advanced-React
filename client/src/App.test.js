@@ -24,4 +24,8 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-
+it('renders without crashing', () => {
+  const wrapper = rtl.render(
+    <h1>Name: </h1>
+  );
+});
