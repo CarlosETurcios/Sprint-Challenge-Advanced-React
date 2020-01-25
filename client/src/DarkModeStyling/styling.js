@@ -20,7 +20,7 @@ const Styling = styled.div`
 }
 
 .toggle {
-  background: #f68819;
+  background: red;
   border-radius: 50px;
   height: 18px;
   left: 0;

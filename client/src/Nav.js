@@ -11,7 +11,7 @@ const Nav = () => {
 
     return (
         <nav className="navbar">
-            <h1>Women's World Cup </h1>
+            <h1>Women's World Cup Searches </h1>
             <div className="darkmode-toggle">
                 <div onClick={toggleMode}
                     className={darkMode ? 'toggle toggled' : 'toggle'}
