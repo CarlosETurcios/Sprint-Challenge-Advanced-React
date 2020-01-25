@@ -1,16 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+import React from "react";
+import styled from 'styled-components'
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+const Styling = styled.div`
+
+
+
 
 * {
   box-sizing: border-box;
@@ -44,10 +38,16 @@ code {
   color: #fff;
   background-color: #313843;
 
-  .navbar {
+  .nav {
     background-color: #1F2022;
     border: none;
   }
 
 }
 
+
+
+
+
+`
+export default Styling
